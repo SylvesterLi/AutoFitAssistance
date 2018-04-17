@@ -72,7 +72,7 @@ public class MainActivity extends Activity implements DeviceListAdapter.DataSour
             devices.add(device);
             Log.i(TAG, "device: " + device + ", name: " + device.getName());
         }
-        deviceListAdapter.notifyDataSetChanged();
+        deviceListAdapter.notifyDataSetChanged1();
     }
 
     public void beginSearch(View v) {
